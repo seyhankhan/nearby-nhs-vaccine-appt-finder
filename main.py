@@ -28,7 +28,6 @@ from os import system
 from time import sleep
 
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 
 if not(first_name and surname and postcode and birthdate_day and birthdate_month and birthdate_year):
   print("\nOpen main.py and fill in your details.\nHave a look at example-of-personal-details.png if stuck!\n")
