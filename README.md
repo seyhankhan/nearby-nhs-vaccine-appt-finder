@@ -1,6 +1,6 @@
 # Auto checker for nearby NHS COVID Vaccine appointments (UK)
 
-For if you can't seem to find a vaccine appt closeby.
+For if you can't seem to find a vaccine appt near ya.
 
 Leave this running in the background for like 2 minutes, and he'll find a vaccine appoinment place down the road.
 
