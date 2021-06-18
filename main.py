@@ -22,6 +22,10 @@ from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
+if not(first_name and surname and postcode and birthdate_day and birthdate_month and birthdate_year):
+  print("Open main.py and fill in your details")
+  exit()
+
 driver = webdriver.Chrome('./chromedriver')
 driver.get("https://www.nhs.uk/book-a-coronavirus-vaccination/do-you-have-an-nhs-number")
 
