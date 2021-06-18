@@ -1,18 +1,26 @@
 # github.com/seyhanvankhan/nhs-vaccine
 
-# WARNING: Only use this code if these 2 questions are "No"
+# WARNING: Only use this program if these 2 questions are "No"
 # - Have you had the flu vaccine in the past 7 days?
 # - Do you have a flu vaccine appointment soon?
 
-first_name = "Adam"
-surname = "Smith"
-postcode = "SW1A2AA"
+first_name = ""
+surname = ""
+postcode = ""
 
-birthdate_day = "23"
-birthdate_month = "9"
-birthdate_year = "1999"
+birthdate_day = ""
+birthdate_month = ""
+birthdate_year = ""
 
 furthest_acceptable_place_in_miles = 5.0
+
+# have a look at example-of-personal-details.png if stuck!
+
+
+
+
+
+
 
 ################################################################################
 
@@ -23,7 +31,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 if not(first_name and surname and postcode and birthdate_day and birthdate_month and birthdate_year):
-  print("Open main.py and fill in your details")
+  print("\nOpen main.py and fill in your details.\nHave a look at example-of-personal-details.png if stuck!\n")
   exit()
 
 driver = webdriver.Chrome('./chromedriver')
