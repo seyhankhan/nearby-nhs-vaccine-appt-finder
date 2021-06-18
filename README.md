@@ -23,6 +23,7 @@ It fills in the entire [NHS Vaccine Booking form](https://www.nhs.uk/book-a-coro
 1. Download this project
 2. Open main.py and **fill in your personal details**.
 - *(Note: The data stays on that file. No-one else has it unless you specifically share)*
+![Example of Personal Details to put](example-of-personal-details.png)
 3. Run main.py in Python. 
 ```
 python main.py
