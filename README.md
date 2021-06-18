@@ -2,7 +2,7 @@
 
 For if you can't seem to find a vaccine appt near ya.
 
-Leave this running in the background and it'll find a vaccine appoinment place down the road, in like 2 minutes.
+Leave this running in the background and it'll find a vaccine appointment place down the road, in like 2 minutes.
 
 ### What he do tho
 It fills in the entire [NHS Vaccine Booking form](https://www.nhs.uk/book-a-coronavirus-vaccination) and checks for nearby appointments every 3 seconds. Alerts you with text-to-speech.
