@@ -12,7 +12,7 @@ birthdate_day = ""
 birthdate_month = ""
 birthdate_year = ""
 
-maximum_distance = 5.0
+furthest_acceptable_place_in_miles = 5.0
 
 # have a look at example-of-personal-details.png if stuck!
 
@@ -76,7 +76,7 @@ driver.find_element_by_class_name("next-button").click()
 while True:
   distanceHTML = driver.find_element_by_class_name("distance").get_attribute('innerHTML')
   distance = float(distanceHTML[:distanceHTML.index(' ')])
-  if distance < maximum_distance:
+  if distance <= furthest_acceptable_place_in_miles:
     nameElement = driver.find_element_by_class_name("SiteSelector")
     name = nameElement.get_attribute('innerHTML')
     # Announce vaccine site with text-to-speech
