@@ -12,7 +12,7 @@ birthdate_day = ""
 birthdate_month = ""
 birthdate_year = ""
 
-furthest_acceptable_place_in_miles = 5.0
+maximum_distance = 5.0
 
 # have a look at example-of-personal-details.png if stuck!
 
