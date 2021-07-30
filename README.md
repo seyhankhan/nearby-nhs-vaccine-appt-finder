@@ -16,7 +16,7 @@ It fills in the entire [NHS Vaccine Booking form](https://www.nhs.uk/book-a-coro
 ## Installation
 
 1. Install [**Python**](https://www.python.org/downloads/) and [**Pip**](https://pip.pypa.io/en/stable/installing/)
-3. If your computer isn't MacOS or has the new M1 chip, [download the right **Chromedriver**](https://chromedriver.storage.googleapis.com/index.html?path=92.0.4515.43/) and replace the current Chromedriver file in this project with that
+3. [Download **Chromedriver**](https://chromedriver.storage.googleapis.com/index.html?path=92.0.4515.43/) and place it in this project folder
 4. Install **Selenium** `pip3 install selenium`
 ## How to run
 
